@@ -59,11 +59,11 @@ After installing the requirements and building the project, you can run the comp
 
 ### 1. Precompute chi
 
-Run 'misc/precompute_kronecker.c' to generate `chi'txt`. After the file is generated, move it to `/input` dirctory.
+Run 'misc/precompute_kronecker.c' to generate `chi'txt`. After the file is generated, move it to the `/input` dirctory.
 
 ### 2. Choose the version
 
-Edit `src/CMakeLists.txt` to choose the version of main program to run.
+Edit `src/CMakeLists.txt` to choose the version of main program to run (either main.c, main_by_file.c, or main_test_ind.c).
 
 ### 3. Build the project
 From the repository root:  
@@ -88,3 +88,6 @@ dirctory.
 
 All source code is stored in the directory `/src`. All input files are stored in `/input` dirctory. 
 `/test` dirctory contains all unit tests for this project and `/misc` conatins all other helping code and scripts.
+
+
+By Rick Lu, Asif Zaman, and Haonan Zhao
